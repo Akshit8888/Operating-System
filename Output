@@ -1,0 +1,81 @@
+ Level 1 : Fixed priority preemptive Scheduling
+ Level 2 : Round Robin Scheduling
+
+Enter Total Number of Processes   : 3
+Enter Time Quantum for Round Robin in multiple of 2: 2 4 6
+Process ID       : Arrival Time     : Burst Time       : 1
+Process Priority : 1
+Process ID       : 1
+Arrival Time     : 3
+Burst Time       : 2
+Process Priority : 2
+Process ID       : 2
+Arrival Time     : 6
+Burst Time       : 3
+Process Priority : 3
+
+
+                        LEVEL 1 QUEUE IS Running
+
+
+Process ID:1     Arrival Time:3         Priority: 2     Burst Time:2
+Process ID:4     Arrival Time:6         Priority: 1     Burst Time:1
+Process ID:2     Arrival Time:6         Priority: 3     Burst Time:3
+
+
+Process ID:1  Priority: 2 Burst Time 2 time 3
+Process ID:1  Priority: 2 Burst Time 1 time 4                                   Process 1 has completed
+Gǥp1[i].process_id
+Process ID:4  Priority: 1 Burst Time 1 time 6                                   Process 4 has completed
+Gǥp1[i].process_id
+Process ID:2  Priority: 3 Burst Time 3 time 7
+Process ID:2  Priority: 3 Burst Time 2 time 8
+Process ID:2  Priority: 3 Burst Time 1 time 9                                   Process 2 has completed
+Gǥp1[i].process_id
+
+
+
+ LEVEL 2 is Running
+
+
+
+
+                 ********** PROCESS TABLE **********
+| Process ID:4 | Arrival Time:6 | Burst Time:1 | waiting Time:0  | Turn Time:1 |
+                 ********** PROCESS TABLE **********
+| Process ID:1 | Arrival Time:3 | Burst Time:2 | waiting Time:0  | Turn Time:2 |
+                 ********** PROCESS TABLE **********
+| Process ID:2 | Arrival Time:6 | Burst Time:3 | waiting Time:1  | Turn Time:4 |
+
+Average Waiting Time    : 0.33
+Average TurnAround Time : 2.33
+
+--------------------------------
+Process exited after 135 seconds with return value 31
+Press any key to continue . . .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
